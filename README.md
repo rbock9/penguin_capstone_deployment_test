@@ -1,24 +1,31 @@
-# capstone-mockup-frontend
+# Capstone Project (GameGallery) - Full Stack App by Rob Bock
 
-## Project setup
-```
-npm install
-```
+This application can be used to view, create, update, and delete various kinds of information about video games.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## User Stories
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Users can view a listing of all games through an index page.
+- Users can create, update, and delete games via forms.
+- Users can navigate pages via header links.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## List of Components
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- App
+- View List
+- Create
+- Edit
+- Show
+
+### Technologies Used
+
+- MEVN stack (MongoDB, Express.js, Vue.js, NodeJS)
+- Bootstrap
+- Heroku
+- Netlify
+
+### Challenges
+
+- Limited time to work in a brand-new framework
+- Deployment struggles
+- Covid woes
+
