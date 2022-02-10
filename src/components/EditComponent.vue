@@ -56,7 +56,6 @@ export default {
         }
     },
     created() {
-        // let apiURL = `http://localhost:4000/api/edit-student/${this.$route.params.id}`;
         let apiURL = `https://rb-penguin-project5-backend.herokuapp.com/games/${this.$route.params.id}`
         axios.get(apiURL).then((res) => {
             this.game = res.data;
@@ -64,7 +63,6 @@ export default {
     },
     methods: {
         handleUpdateForm() {
-            // let apiURL = `http://localhost:4000/api/update-student/${this.$route.params.id}`;
             let apiURL = `https://rb-penguin-project5-backend.herokuapp.com/games/${this.$route.params.id}`
 
             axios.put(apiURL, this.game).then((res) => {
